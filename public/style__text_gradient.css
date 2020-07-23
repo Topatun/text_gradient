@@ -99,7 +99,11 @@
   }
 
   .main {
-    font-family: "Rubik"
+    height: 100%;
+    font-family: "Rubik";
+    display: flex;
+    flex-direction: row;
+    align-items: center;
   }
   .container {
     max-width: 1150px;
